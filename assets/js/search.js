@@ -3,6 +3,8 @@ window.onload = () => {
     let form = document.getElementById("form");
     let inputWord = document.getElementById("inputWord");
 
+    inputWord.focus();
+
     inputWord.addEventListener("keypress", (e) => {
         let value = inputWord.value;
 
